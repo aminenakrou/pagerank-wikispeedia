@@ -4,13 +4,13 @@
 
 **Implémentation et analyse comparative de l'algorithme PageRank (standard & personnalisé) sur le graphe de navigation Wikispeedia de Stanford.**
 
-[![GitHub Pages](https://img.shields.io/badge/🌐_Live_Demo-GitHub_Pages-6366f1?style=for-the-badge)](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/)
+[![GitHub Pages](https://img.shields.io/badge/🌐_Live_Demo-GitHub_Pages-6366f1?style=for-the-badge)](https://aminenakrou.github.io/pagerank-wikispeedia/)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 
 <br>
 
-[🌐 **Voir le site du projet**](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/) · [📄 **Lire le rapport**](https://github.com/aminenakrou/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/blob/main/NAKROU_YAHI__RAPPORT_BIGDATA.pdf)
+[🌐 **Voir le site du projet**](https://aminenakrou.github.io/pagerank-wikispeedia/) · [📄 **Lire le rapport**](https://github.com/aminenakrou/pagerank-wikispeedia/blob/main/NAKROU_YAHI__RAPPORT_BIGDATA.pdf)
 
 </div>
 
@@ -41,7 +41,7 @@ L'approche combine :
 - **Personnalisation** du vecteur de téléportation pour orienter les résultats
 
 > 🌐 **Le site interactif du projet est disponible ici :**
-> **[aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/)**
+> **[aminenakrou.github.io/pagerank-wikispeedia](https://aminenakrou.github.io/pagerank-wikispeedia/)**
 
 ---
 
@@ -182,7 +182,7 @@ Le jeu de données Wikispeedia est disponible sur le site de Stanford SNAP : [sn
 
 <div align="center">
 
-**[🌐 Voir le site interactif](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/)** · **[📄 Lire le rapport](NAKROU_YAHI__RAPPORT_BIGDATA.pdf)**
+**[🌐 Voir le site interactif](https://aminenakrou.github.io/pagerank-wikispeedia/)** · **[📄 Lire le rapport](NAKROU_YAHI__RAPPORT_BIGDATA.pdf)**
 
 <sub>Projet Big Data — IS4 · Polytech LILLE </sub>
 
