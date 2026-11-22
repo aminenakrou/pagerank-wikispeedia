@@ -7,11 +7,10 @@
 [![GitHub Pages](https://img.shields.io/badge/🌐_Live_Demo-GitHub_Pages-6366f1?style=for-the-badge)](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <br>
 
-[🌐 **Voir le site du projet**](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/) · [📄 **Lire le rapport**](https://github.com/aminenakrou/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/blob/main/NAKROU_YAHI__RAPPORT_BIGDATA.pdf) · [🐛 **Signaler un bug**](https://github.com/AmiNeNakrou/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/issues)
+[🌐 **Voir le site du projet**](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/) · [📄 **Lire le rapport**](https://github.com/aminenakrou/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/blob/main/NAKROU_YAHI__RAPPORT_BIGDATA.pdf)
 
 </div>
 
@@ -23,7 +22,7 @@
 - [Résultats clés](#-résultats-clés)
 - [Dataset](#-dataset)
 - [Méthodologie](#-méthodologie)
-- [Installation & Exécution](#-installation--exécution)
+- [Code](#-code)
 - [Structure du projet](#-structure-du-projet)
 - [Technologies](#-technologies)
 - [Auteurs](#-auteurs)
@@ -118,36 +117,9 @@ Où `V` est le vecteur de personnalisation favorisant un sous-ensemble de pages,
 
 ---
 
-## 🚀 Installation & Exécution
+## 💻 Code
 
-### Prérequis
-
-- Python 3.x
-- NumPy
-- Matplotlib
-
-### Installation
-
-```bash
-# Cloner le dépôt
-git clone https://github.com/AmiNeNakrou/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset.git
-cd Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset
-
-# Installer les dépendances
-pip install numpy matplotlib
-```
-
-### Exécution
-
-```bash
-# PageRank Standard
-python pagerank_standard.py
-
-# PageRank Personnalisé
-python pagerank_personnalise.py
-```
-
-> ⚠️ **Note :** Assurez-vous que le fichier `paths_finished.tsv` se trouve dans le même répertoire que les scripts, ou modifiez la variable `file_path` dans chaque fichier.
+Le code Python complet (PageRank standard et personnalisé, avec NumPy et Matplotlib) est présenté et commenté dans le [rapport](NAKROU_YAHI__RAPPORT_BIGDATA.pdf). Il s'exécute sur le fichier `paths_finished.tsv` du dataset Wikispeedia.
 
 ---
 
@@ -155,19 +127,12 @@ python pagerank_personnalise.py
 
 ```
 .
-├── index.html                              # Site web du projet (GitHub Pages)
-├── pagerank_standard.py                    # Implémentation du PageRank standard
-├── pagerank_personnalise.py                # Implémentation du PageRank personnalisé
-├── paths_finished.tsv                      # Dataset Wikispeedia (chemins)
-├── figures/
-│   ├── top20_beta_085.png                  # Top 20 des pages (β = 0.85)
-│   ├── impact_beta.png                     # Évolution du Top 5 selon β
-│   ├── performance_iterations.png          # Itérations en fonction de β
-│   └── performance_temps.png               # Temps d'exécution en fonction de β
-├── rapport/
-│   └── NAKROU_YAHI__RAPPORT_BIGDATA.pdf    # Rapport complet du projet
+├── index.html                          # Site web du projet (GitHub Pages)
+├── NAKROU_YAHI__RAPPORT_BIGDATA.pdf    # Rapport complet : méthode, code commenté et résultats
 └── README.md
 ```
+
+Le jeu de données Wikispeedia est disponible sur le site de Stanford SNAP : [snap.stanford.edu/data/wikispeedia.html](https://snap.stanford.edu/data/wikispeedia.html).
 
 ---
 
@@ -196,7 +161,7 @@ python pagerank_personnalise.py
 
 <div align="center">
 
-**[🌐 Voir le site interactif](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/)** · **[📄 Lire le rapport](rapport/NAKROU_YAHI__RAPPORT_BIGDATA.pdf)**
+**[🌐 Voir le site interactif](https://aminenakrou.github.io/Big_Data_Project-PageRank_Analysis_on_Wikispeedia_Dataset/)** · **[📄 Lire le rapport](NAKROU_YAHI__RAPPORT_BIGDATA.pdf)**
 
 <sub>Projet Big Data — IS4 · Polytech LILLE </sub>
 
