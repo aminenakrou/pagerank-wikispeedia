@@ -1,0 +1,10 @@
+# Données Wikispeedia (à télécharger, voir README)
+paths_finished.tsv
+wikispeedia_paths-and-graph/
+
+# Sorties générées
+performance_beta.png
+
+__pycache__/
+*.pyc
+.venv/

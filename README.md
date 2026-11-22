@@ -22,7 +22,7 @@
 - [Résultats clés](#-résultats-clés)
 - [Dataset](#-dataset)
 - [Méthodologie](#-méthodologie)
-- [Code](#-code)
+- [Code et exécution](#-code-et-exécution)
 - [Structure du projet](#-structure-du-projet)
 - [Technologies](#-technologies)
 - [Auteurs](#-auteurs)
@@ -117,9 +117,27 @@ Où `V` est le vecteur de personnalisation favorisant un sous-ensemble de pages,
 
 ---
 
-## 💻 Code
+## 💻 Code et exécution
 
-Le code Python complet (PageRank standard et personnalisé, avec NumPy et Matplotlib) est présenté et commenté dans le [rapport](NAKROU_YAHI__RAPPORT_BIGDATA.pdf). Il s'exécute sur le fichier `paths_finished.tsv` du dataset Wikispeedia.
+| Fichier | Rôle |
+|:---|:---|
+| `pagerank_standard.py` | Chargement des chemins, matrice de transition, PageRank standard pour β de 0.1 à 0.9, graphiques itérations / temps |
+| `pagerank_personnalise.py` | PageRank personnalisé sur les thèmes « Computer » et « Savane » (Lion, Zebra) |
+
+```bash
+pip install -r requirements.txt
+
+# Télécharger le dataset Wikispeedia (Stanford SNAP)
+curl -LO https://snap.stanford.edu/data/wikispeedia/wikispeedia_paths-and-graph.tar.gz
+tar -xzf wikispeedia_paths-and-graph.tar.gz
+
+python pagerank_standard.py wikispeedia_paths-and-graph/paths_finished.tsv
+python pagerank_personnalise.py wikispeedia_paths-and-graph/paths_finished.tsv
+```
+
+Résultats obtenus : 51 318 chemins, 4 169 pages, et pour β = 0.85 le Top 5 United_States (0.0305), Europe, United_Kingdom, England, Africa.
+
+> Note : dans le listing en annexe du rapport, la version personnalisée transpose une seconde fois la matrice de transition, ce qui inverse le sens des liens. Le script utilise la formule correcte, qui reproduit les résultats présentés dans le rapport.
 
 ---
 
@@ -127,8 +145,11 @@ Le code Python complet (PageRank standard et personnalisé, avec NumPy et Matplo
 
 ```
 .
+├── pagerank_standard.py                # PageRank standard
+├── pagerank_personnalise.py            # PageRank personnalisé
+├── requirements.txt
 ├── index.html                          # Site web du projet (GitHub Pages)
-├── NAKROU_YAHI__RAPPORT_BIGDATA.pdf    # Rapport complet : méthode, code commenté et résultats
+├── NAKROU_YAHI__RAPPORT_BIGDATA.pdf    # Rapport complet
 └── README.md
 ```
 
